@@ -28,6 +28,16 @@ def summarize_text(text):
 @click.option('--text', '-t', help='Input text')
 def main(file, text):
     """Summarize text from a file or direct input using Ollama API with Qwen2 0.5B model."""
+    """
+    
+    python summarizer.py -f input.txt
+
+
+
+    
+    python summarizer.py --text "Your long text goes here..."
+    
+    """
     if file:
         content = file.read()
     elif text:
