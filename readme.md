@@ -2,7 +2,7 @@
 28-07-2024
 
 # Project Name
-Text Summarizer using Ollama-2.0:5B
+Text Summarizer using Ollama-2:0.5B
 
 # Author Name
 Shrutik Dawane
