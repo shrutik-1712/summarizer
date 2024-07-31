@@ -30,12 +30,12 @@ def main(file, text):
     """Summarize text from a file or direct input using Ollama API with Qwen2 0.5B model."""
     """
     
-    python summarizer.py -f input.txt
+    python main.py -f input.txt
 
 
 
-    
-    python summarizer.py --text "Your long text goes here..."
+
+    python main.py --text "Your long text goes here..."
     
     """
     if file:
